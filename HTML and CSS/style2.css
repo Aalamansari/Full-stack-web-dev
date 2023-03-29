@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+
+.newlayout div{
+    background-color: #d87093;
+    width: 200px;
+    height: 200px;
+    border: 1px solid purple;
+    margin: 10px;
+    flex-basis: 400px;
+}
+
+.newlayout{
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    flex-shrink: 0;
+}
+
+.third{
+    flex-shrink: 0.5;
+}

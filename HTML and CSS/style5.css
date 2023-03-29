@@ -1,0 +1,17 @@
+.first{
+    background-color: lavender;
+    height: 50vh;
+    width: 100vw;
+}
+
+.second{
+    position: sticky;
+    top: 0;
+    background-color: purple;
+}
+
+.third{
+    background-color: pink;
+    height: 250vh;
+    width: 100vw;
+}

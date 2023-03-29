@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gmail{
+    padding: 10px;
+}
+
+.images{
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+.logo{
+    padding: 5px;
+}
+
+.parent{
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar{
+    height: 4vh;
+    width: 50vw;
+    border-radius: 20px;
+}
+
+
+footer{
+    background-color: ghostwhite;
+}
+
+.info{
+    padding: 10px;
+}
