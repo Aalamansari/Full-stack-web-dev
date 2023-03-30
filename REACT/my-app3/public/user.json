@@ -1,0 +1,14 @@
+{
+    "Aalam":{
+        "name":"Aalam",
+        "age":21
+    },
+    "Asad":{
+        "name":"Asad",
+        "age":23
+    },
+    "Awaiz":{
+        "name":"Awaiz",
+        "age":44
+    }
+}
