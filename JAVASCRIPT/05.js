@@ -35,6 +35,9 @@ function ismature(mature){
     if(!mature){
         console.log('You are mature')
     }
+    else{
+        console.log('You are not mature')
+    }
 }
 
-ismature(false)
+ismature(true)

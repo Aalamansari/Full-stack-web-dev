@@ -1,5 +1,13 @@
+/*
+
+primitives ==> Values that copy function gives a real copy of the main data 
+reference = [] () {}
+Any value that on copy function doesn't get copy for real but gives the reference of the real value is reference datatype
+
+*/
+
 //integer type
-const var1 = 22
+const var1 = 24
 
 //string type
 const var2 = 'Aalam'

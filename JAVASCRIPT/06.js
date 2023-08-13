@@ -12,7 +12,7 @@ console.log("---------------------------------")
 arr1.unshift("Asad")
 console.log(arr1)
 
-//pop function returns the last value from the array and remvove it from it
+//pop function returns the last value from the array and remove it from it
 arr1.pop()
 console.log(arr1) 
 
