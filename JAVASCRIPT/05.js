@@ -41,3 +41,7 @@ function ismature(mature){
 }
 
 ismature(true)
+
+
+// falsy : 0 false undefined null NaN document.all
+// truthy : everything except above

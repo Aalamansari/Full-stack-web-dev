@@ -37,3 +37,26 @@ console.log(var5[2]) //print the element of specific index
 console.log(var6)   //undefined is the value of the variable that has not been defined yet
 console.log(var7)
 console.log(var8)  //typeof gives the type of data stored in the variable
+
+
+// Spread operator (...)
+var arr = [1,2,3,4] // ==> to copy the value of arr in b we use spread operator
+var b = [...arr]
+console.log(b)
+
+var dict1 = {'name1':'Aalam','name2':'Asad','name3':'Awaiz'}
+var dict2 = {...dict1}
+console.log(dict2)
+
+// Now if we make changes in the copied data, the original source won't change
+
+
+
+// delete an property from the object
+var obj = {
+    name: 'Aalam',
+    age: 21
+}
+
+delete obj.name
+console.log(obj)

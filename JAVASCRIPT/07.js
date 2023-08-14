@@ -41,3 +41,37 @@ function testnumber(num){
 }
 
 console.log(testnumber(10))
+
+// forEach loop:  It can be used for array only. 
+// It doesn't make changes in the array, all the changes are made to a temporary copy of real elements
+
+
+var a = [1,2,3,4,5,6,7]
+
+a.forEach(function(val){
+    console.log(val+1)
+})
+
+
+// for-in loop: used only for objects
+
+var obj = {
+    name: 'Aalam',
+    age: 21,
+    city: 'bhopal'
+}
+
+for(var key in obj){
+    console.log(key,obj[key])
+}
+
+// do-while loop
+var c = 12
+
+do{
+    console.log(c)
+    c++
+}
+while(c<12)
+
+// the body of do will run for the 1st time even if the while condition  is false
